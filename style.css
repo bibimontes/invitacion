@@ -176,10 +176,10 @@ body{
     min-height: 56px;
     padding: 12px 20px;
     border: 1px solid rgba(255, 255, 255, 0.25);
-    border-radius: 30px;
+    border-radius: 20px;
     background: rgba(255, 255, 255, 0.10);
     color: white;
-    font-size: 17px;
+    font-size: 14px;
     text-decoration: none;
 }
 
@@ -320,7 +320,7 @@ BOTONES
 
     padding:18px;
 
-    font-size:20px;
+    font-size:12px;
 
     transition:.30s;
 
@@ -420,7 +420,7 @@ BOTONES
     margin: 24px auto 50px;
     padding: 12px 20px;
     border: 1px solid rgba(255, 255, 255, 0.22);
-    border-radius: 30px;
+    border-radius: 20px;
     background: rgba(255, 255, 255, 0.08);
     color: white;
     text-decoration: none;
