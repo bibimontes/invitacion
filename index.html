@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Invitación Bibi</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+        <script src="script.js"></script>
+
+</body>
+</html>
+
+    <!-- ========= PORTADA ========= -->
+
+    <section id="inicio" class="portada">
+
+        <img class="portada-img" src="assets/portada.webp" alt="Portada">
+
+        <p class="texto-contador">FALTAN</p>
+
+        <div class="contador">
+
+            <div class="tiempo">
+                <span id="dias">00</span>
+                <small>Días</small>
+            </div>
+
+            <div class="tiempo">
+                <span id="horas">00</span>
+                <small>Horas</small>
+            </div>
+
+            <div class="tiempo">
+                <span id="minutos">00</span>
+                <small>Min</small>
+            </div>
+
+            <div class="tiempo">
+                <span id="segundos">00</span>
+                <small>Seg</small>
+            </div>
+
+        </div>
+
+        <button id="btnDetalles">
+
+           ↓  VER DETALLES  ↓
+
+        </button>
+
+    </section>
+
+    <!-- ========= INFORMACIÓN ========= -->
+
+<section id="informacion" class="seccion-informacion">
+
+    <div class="marco-informacion">
+
+        <img
+            src="assets/fondo.webp"
+            alt="Información del evento"
+            class="imagen-informacion"
+        >
+
+        <div class="datos-sobre-imagen">
+
+            <h2>Detalles del evento</h2>
+
+            <div class="bloque-dato">
+                <span>📅</span>
+
+                <div>
+                    <strong>Sábado 15 de agosto de 2026</strong>
+                    <p>Recepción · 6:00 p. m.</p>
+                    <p>Taquiza · 8:30 p. m.</p>
+                </div>
+            </div>
+
+            <div class="bloque-dato">
+                <span>📍</span>
+
+                <div>
+                    <strong>Terraza Arámbula</strong>
+                    <p>Agustín Rivera 47</p>
+                    <p>Santa Anita Pueblo</p>
+                </div>
+            </div>
+
+            <div class="dress-code">
+                <span>👟</span>
+
+                <h3>DRESS CODE</h3>
+
+                <p class="todos-tenis">
+                    <strong>TODOS DE TENIS</strong>
+                </p>
+
+                <p>
+                    Y por favor evita vestir
+                    de color negro, rosa
+                    o prendas con brillos.
+                </p>
+
+                <p class="no-ninos">NO NIÑOS</p>
+            </div>
+
+            <div class="regalo">
+                <span>🎁</span>
+
+                <h3>LO MÁS IMPORTANTE ES CONTAR CON TU PRESENCIA</h3>
+
+                <p>
+                    Si deseas obsequiarme un detalle,
+                    lo recibiré con mucho cariño.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="contenido-inferior">
+
+        <div class="botones-informacion">
+
+            <a href="#" id="btnMapa" class="boton">
+                📍 Cómo llegar
+            </a>
+
+            <a href="#" id="btnWhats" class="boton">
+                💬 Contactar por WhatsApp
+            </a>
+
+        </div>
+
+        <form id="formConfirmacion" class="formulario-confirmacion">
+
+            <h2>Confirma tu asistencia</h2>
+
+            <p class="texto-confirmacion">
+                Favor de confirmar antes del 3 de agosto.
+            </p>
+
+            <div class="campo-formulario">
+                <label for="nombre">Nombre</label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Escribe tu nombre"
+                    required
+                >
+            </div>
+
+            <div class="campo-formulario">
+                <label for="asistentes">Número de asistentes</label>
+
+                <input
+                    type="number"
+                    id="asistentes"
+                    name="asistentes"
+                    min="1"
+                    max="10"
+                    value="1"
+                    required
+                >
+            </div>
+
+            <div class="campo-formulario">
+                <label for="respuesta">¿Podrás acompañarnos?</label>
+
+                <select id="respuesta" name="respuesta" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="Sí asistiré">Sí, asistiré</option>
+                    <option value="No podré asistir">No podré asistir</option>
+                </select>
+            </div>
+
+            <button type="submit" class="boton boton-confirmar">
+                Confirmar asistencia
+            </button>
+
+            <p id="mensajeFormulario" class="mensaje-formulario"></p>
+
+        </form>
+
+        <a href="#inicio" id="btnInicio" class="boton boton-inicio">
+            ↑ INICIO ↑
+        </a>
+
+    </div>
+
+</section>
