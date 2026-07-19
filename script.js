@@ -165,9 +165,15 @@ Tengo una duda sobre tu cumpleaños del 15 de agosto.`
     const urlBaseDatos =
         "https://script.google.com/macros/s/AKfycbyAN27BJBFCforNflSDsXWUElu3ocCVVR4VrbVYkLMDP181Iw3gJEq5ay143oivccpW/exec";
 
+        console.log("Formulario:", formulario);
+        console.log("Botón:", botonEnviar);
+        console.log("Mensaje:", mensajeFormulario);
+
     if (formulario && botonEnviar && mensajeFormulario) {
 
         formulario.addEventListener("submit", async function (evento) {
+
+            console.log("ENTRÓ AL SUBMIT");
 
             evento.preventDefault();
 
