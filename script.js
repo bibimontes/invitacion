@@ -1,3 +1,5 @@
+console.log("SCRIPT CARGADO");
+
 document.addEventListener("DOMContentLoaded", function () {
 
     // ==================================
